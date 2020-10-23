@@ -54,10 +54,10 @@ int main(){
         // decimal number
         printf("Please enter the number: "); 
         scanf("%d", &number);
-        // position at which we want to set the bit
+        // position at which we want to manipulate the bit
         printf("Please enter the position of the bit to be manipulated: ");
         scanf("%d",&bitposition);
-        // number of bits to set
+        // what to do with the bit
         printf("Please make a choice from the following\n");
         printf(" - 1 to set bit in a given number\n");
         printf(" - 2 to unset/clear bit at a given position in a given number\n");
@@ -90,6 +90,3 @@ int main(){
         }
     }
 }
-
-
-
