@@ -4,8 +4,9 @@
  * - Set a bit in a given number (using bitwise OR)
  * - Unset/Clear a bit at at given position in a given number (Using bitwise AND)
  * - Toggle a bit at a given position (Using XOR)
+ * - Check if a bit at a given position is one or zero  
  *
- * Version 0.1; Author M. Ahsan (Last modification: 2020-09-28)
+ * Version 0.1; Author M. Ahsan (Last modification: 2020-10-23)
 */
 
 // function prompts
