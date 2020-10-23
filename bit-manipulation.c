@@ -9,7 +9,7 @@
  * Version 0.1; Author M. Ahsan (Last modification: 2020-10-23)
 */
 
-// function prompts
+// function prototypes
 int setBit(int num, int pos); // function for bit setting
 int clearBit(int num, int pos); // function for clearing specific bit
 int toggleBit(int num, int pos); // function to toggle(0->1, 1->0) specific bit
@@ -65,7 +65,6 @@ int main(){
         printf(" - 4 to check if bit at a given position is set or not\n");
         printf ("- 'q' or 'Q' to quit.\n");
         scanf(" %c", &choice);
-        //printf("choice is %c", choice);
         if (choice == 'q' || choice == 'Q'){
             break;
         }
