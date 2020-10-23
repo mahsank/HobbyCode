@@ -12,7 +12,7 @@
 // function prompts
 int setBit(int num, int pos); // function for bit setting
 int clearBit(int num, int pos); // function for clearing specific bit
-int tobbleBit(int num, int pos); // function to toggle(0->1, 1->0) specific bit
+int toggleBit(int num, int pos); // function to toggle(0->1, 1->0) specific bit
 void isbitSet(int num, int pos); // function to check if a specific bit is set(1) or not set(0)
 
 int setBit(int num, int pos){
