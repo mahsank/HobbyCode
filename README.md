@@ -1,1 +1,1 @@
-A repository for embedded C hobby code
+A repository for hobby code in Python and C.
