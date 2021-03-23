@@ -1,0 +1,28 @@
+From 505f40097e34e294c170fe462815d41156b7d53d Mon Sep 17 00:00:00 2001
+From: Muhammad Ahsan <ahsan@@@vivaldi.net>
+Date: Mon, 1 Feb 2021 16:20:32 +0200
+Subject: [PATCH] [e24d7413dd77]-Eduptyla Task 03 - Makefile patch
+
+Modify the EXTRAVERSION string in Makefile to eudyptula  
+
+Signed-off-by: Muhammad Ahsan <ahsan@@@vivaldi.net>
+---
+ Makefile | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index e0af7a4a5598..d4201c5b3dc6 100644
+--- a/Makefile
++++ b/Makefile
+@@ -2,7 +2,7 @@
+ VERSION = 5
+ PATCHLEVEL = 11
+ SUBLEVEL = 0
+-EXTRAVERSION = -rc5
++EXTRAVERSION = -eudyptula
+ NAME = Kleptomaniac Octopus
+ 
+ # *DOCUMENTATION*
+-- 
+2.29.2
+
