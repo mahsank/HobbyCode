@@ -3,6 +3,9 @@
 # Script is Fedora specific, however, it should not be difficult to
 # modify it  for Debian based distros and few tweaks will make the
 # script work for those distros.
+# version: 0.1
+# author: Muhammad Ahsan
+# license: CC BY-SA
 
 GIT=$(command -v \git)
 URL="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/"
